@@ -1,0 +1,13 @@
+- init:
+	- create .giti folder and giti directory architecture
+- add:
+	- hash objects blob ( Global )
+	- add files to index
+		ex : | data/letter.txt sha-1
+		     | data/text.js sha-1
+- commit:
+	- create ( commit | tree ) object
+	- link commit to the latest tree
+	- update branch index to the latest commit
+- log:
+	- log commits history
