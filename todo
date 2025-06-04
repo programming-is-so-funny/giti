@@ -1,7 +1,11 @@
+- command handler: 
+	
 - init:
 	- create .giti folder and giti directory architecture
 - add:
 	- hash objects blob ( Global )
+		- read file & hash content
+		- 	
 	- add files to index
 		ex : | data/letter.txt sha-1
 		     | data/text.js sha-1
@@ -11,3 +15,9 @@
 	- update branch index to the latest commit
 - log:
 	- log commits history
+---------------------------------------------------------------------
+init structure : 
+	- objects : dir
+	- index : f
+	- ref : dir
+	- HEAD : f
